@@ -28,6 +28,9 @@ public:
         
 //         return q;
         
+        
+        // Optimal solution using fast and slow pointers.
+        
         ListNode* p = head;
         ListNode* q = head;
         while(p!=NULL && p->next!=NULL){
